@@ -1,0 +1,8 @@
+# Ignore all directories
+*/
+
+# Ignore CSV files
+*.csv
+
+# Ignore DOCX files
+*.docx

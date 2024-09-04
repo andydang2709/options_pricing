@@ -63,6 +63,7 @@ All 3 Machine Learning models perform better than Black-Scholes model by 81.6% o
 ## Reflection
 - Black Scholes model's performance could be better if I calculated the running average volatility of stock prices instead of using 1 average volatility. This could be done with more computational power.
 - A wider search for best parameters during hyperparameter tuning could potentially improve the model performance.
+- There is a risk of data leakage due to some measurements of an option's performance not being available at the time of prediction.
 
 # Theories and Citations:
 1. Anders, U., Korn, O., & Schmitt, C. "Improving the Pricing of Options: A Neural Network Approach."
